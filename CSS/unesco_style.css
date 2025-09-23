@@ -1,0 +1,195 @@
+
+
+.unesco{
+    width: 1440px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+.unesco>h2{
+    padding-bottom: 30px ;
+    font-size: 32px;
+}
+.unesco_img{
+    display: flex;
+    padding-top: 50px;
+    gap: 20px;
+}
+.a_box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    padding-left: 80px;
+}
+.a_box>div{
+    width: 332px; height: 42px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 8px;
+    
+    flex: 1;
+}
+.a_o_box{
+    background-color: #FF8400;
+    color: white;
+}
+.a_body{
+    width: 419px; height: 294px;
+    flex: 1; 
+    background-color: whitesmoke;
+    display: flex;
+}
+.a_body img{
+    width: 100%; 
+}
+.life{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    
+} 
+.life>h2{
+    padding-bottom: 30px;
+}
+.life>p{
+    padding-bottom: 30px;
+}
+.body_main_img{
+    display: block;
+    text-align: center;  
+    
+}
+.body_main_img img{
+    display: inline;
+    padding: 50px; 
+}
+.maps{
+    display: block;
+    text-align: center;
+}
+.maps img{
+    display: inline;
+    padding: 50px;
+}
+.tour{
+    width: 1320px;
+    margin: 0 auto;
+    background-color: white;
+}
+.tour>article{
+    display: flex;
+    gap: 30px;
+}
+.a_trip{
+    flex: 1; 
+    background-color: whitesmoke;
+}
+.a_trip img{
+    width: 100%; 
+}
+.a_trip h3{
+    text-align: center;
+}
+.a_trip h4{
+    padding: 0 30px;
+    text-align: center;
+    color: #8a8b8b;
+}
+.a_trip p{
+    text-align: center;
+}
+
+.tour2{
+    width: 840px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+    padding-bottom: 200px;
+    
+}
+.tour2>article{
+    display: flex;
+    gap: 30px;
+}
+.a_trip2 img{
+    width: 100%; 
+    
+}
+
+@media screen and (max-width:1024px){   
+    .unesco>h2{
+        padding-right: 500px;
+        padding-bottom: 15px ;
+}
+    .unesco>p{
+        padding-right: 500px;
+        padding-bottom: 15px;
+    }
+    .a_box{
+    width: 900px; height: 40px;
+    display: flex;
+    position: relative;
+    left: -50px;
+}
+    .a_box>div{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 8px;
+    flex: 1;
+}
+    .a_body{
+    width: 288px; height: 300px;
+    flex: none;
+}
+    .a_body img{ 
+       display: block;
+}
+    .life>h2{
+        padding-right: 500px;
+        padding-bottom: 15px;
+}
+    .life>p{
+        padding-right: 500px;
+        padding-bottom: 15px;
+}
+
+    .body_main_img{
+        display: block;
+        text-align: center;  
+    
+}
+    .body_main_img img{ 
+        width: 900px; height: 400px;
+        display: inline;
+        position: relative;
+        padding-left: -10px; 
+}
+    .body_main_img p{
+        padding-right: 100px;
+        padding-bottom: 15px;
+    }
+
+    .maps{
+        display: block;
+        text-align: center;
+}
+    .maps img{
+        width: 950px; height: 400px;
+        display: inline;
+        position: relative;
+        padding-left: 30px;
+}
+    .tour{
+        width: 950px;
+        padding-top: 30px;
+}
+    .tour2{
+        width: 600px;
+        padding-top: 60px;
+    }
+}
+
